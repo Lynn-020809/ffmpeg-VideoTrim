@@ -4,7 +4,7 @@ from collections import namedtuple
 TrimInfo = namedtuple('TrimStruct','infile initial_time terminal_time outfile')
 
 
-def triminfo(path,video_time):
+def trimInfo(path,video_time):
     list_i=[]
     infile = path.strip()
     time_name = re.findall("BV(.*?).mp4",infile)
