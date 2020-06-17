@@ -1,6 +1,6 @@
 from os.path import join
 from argsparse import argsParse
-from TrimInfo import triminfo
+from triminfo import trimInfo
 from trimmer import Trimmer
 
 def main():
