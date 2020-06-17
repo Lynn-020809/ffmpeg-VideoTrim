@@ -3,10 +3,10 @@ import subprocess
 
 
 def trim(infile,initial_time,terminal_time,outfile):
-    for i in range(initial_time.length):
+    for i in range(len(initial_time)):
         initial = initial_time[i]
         terminal = terminal_time[i]
-        subprocess.rum(f'ffmpeg -i {infile} -ss {initial} -to {terminal} -c copy -f mp4 -copyts {outfile}')
+        subprocess.run(f'ffmpeg -i {infile} -ss {initial} -to {terminal} -c copy -f mp4 -copyts {outfile}')
 
 class Trimmer:
     def __init__(self, into, out):
