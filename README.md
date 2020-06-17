@@ -41,7 +41,7 @@
     
     * Note: If you want to fork the package, please remember to modify the default value to set up the default paths.
     
-  #### Input Demo:     [Click here to review](#Guidance for the simple one)
+  #### Input Demo:     [Click here to review] (# Guidance for the simple one)
   
     You need to prepare two files just like the guidance of the simple one.
     All the instructions are the same as the simple version.
