@@ -12,7 +12,7 @@ def main():
     for path in video_path:
         infile,initial_time,terminal_time,outfile = triminfo(path, video_time)
         trimmer = Trimmer(into, out)
-        trimmer.trim
+        trimmer.trim()
     
 if __name__ == '__main__':
     main()
